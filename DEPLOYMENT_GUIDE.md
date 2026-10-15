@@ -1,67 +1,90 @@
 # PassPrivé Travel — Complete Deployment & Developer Handover Guide
 
-> **Version:** 3.0.0 Production Release  
+> **Version:** 4.0.0 (Next.js + TypeScript + Tailwind CSS)  
 > **Destination:** Mauritius Luxury & Curated Journeys  
 > **WhatsApp Hotline:** `+91 78382 15147` (`917838215147`)  
 > **Admin Login:** `admin@passprive.travel` | `PassPrive@2026#Admin`
 
 ---
 
-## 1. Quick Start (Zero-Configuration Drop-In Deployment)
+## 1. Quick Start
 
-This project is engineered as a **high-performance, zero-dependency, plug-and-play web application**. 
-Your developer does **not** need to run `npm install`, compile assets, configure webpack, or run database migrations.
+The site is a Next.js 16 (App Router) application. Frontend pages and the backend API (formerly PHP) run in one Node.js process.
 
-### Deployment in 3 Steps:
-1. **Upload:** Copy all contents of this folder into your web server's web root (e.g. `public_html/` or subdomain folder).
-2. **Permissions:** Ensure the `data/` directory is writable by PHP:
-   ```bash
-   chmod 775 data
-   chmod 664 data/bookings.json
-   ```
-3. **Launch:** Open your website domain in any browser — it will work instantly!
+**Requirements:** Node.js 20.9+ and npm.
+
+```bash
+npm install
+cp .env.example .env.local   # then fill in the RateHawk credentials
+npm run dev                  # http://localhost:3000
+```
+
+### Production in 3 Steps
+1. **Build:** `npm ci && npm run build`
+2. **Configure:** set the environment variables from `.env.example` on the server.
+3. **Run:** `npm start` (listens on port 3000; use `npm start -- -p 8080` or `PORT=8080 npm start` to change it). Put Nginx, Apache or a load balancer in front for HTTPS.
+
+The `data/` directory must be writable by the Node process, because bookings are stored in `data/bookings.json`:
+
+```bash
+chmod 775 data
+chmod 664 data/bookings.json
+```
+
+> **Serverless hosts (e.g. Vercel):** their filesystem is read-only/ephemeral, so `data/bookings.json` would not persist. Deploy on a VM/container (`npm start`), or move the booking store in `lib/server/bookings-store.ts` to a database before using a serverless host.
 
 ---
 
 ## 2. Directory & File Manifest
 
-| File / Folder | Type | Purpose & Details |
-| :--- | :--- | :--- |
-| `index.html` | Core Frontend | Main responsive landing page with luxury video hero background, dynamic yield calendar, curated trips, interactive modal, and automated WhatsApp trip plan dispatcher. |
-| `mobile-index.html` | Mirror | Dedicated mobile version mirror. |
-| `tablet-index.html` | Mirror | Dedicated tablet version mirror. |
-| `index updated.html` | Backup Mirror | Verified working backup mirror. |
-| `mobile.html` | Mobile Web App | Lightweight mobile experience optimized for fast 4G/5G handheld networks. |
-| `mobile-preview.html` | Simulator Tool | Interactive iPhone 16 Pro simulator frame with Dynamic Island for showcasing mobile UI on desktop browsers. |
-| `admin.html` | Management Portal | Vercel-style secured Admin Dashboard with login gate, supplier hold tracker (Booked 🟢 vs Not Booked 🔴), manual lifecycle stages, RateHawk PNR tracking, and CSV export. |
-| `destinationsCatalog.js` | Catalog Data | Destination packages, hotel configurations, inclusions, and descriptions. |
-| `api/bookings.php` | Backend API | Production REST API for booking management (`GET`, `POST`, `PUT`, `DELETE`) with CORS headers, atomic file locking (`flock`), and JSON responses. |
-| `api/rates.php` | Backend API | RateHawk B2B API gateway with 15% agency markup calculation, fallback rates, and dynamic cancellation cutoff dates. |
-| `api/.htaccess` | Security Config | API directory protection with CORS headers and directory listing disabled. |
-| `data/bookings.json` | Persistent Database | Clean empty JSON database (`[]`) ready to capture live customer inquiries. |
-| `data/.htaccess` | Security Config | Apache security directive blocking direct public HTTP downloads of `bookings.json`. |
-| `legal/` | Legal Pages | Complete GDPR & Indian consumer compliance suite (`privacy.html`, `terms.html`, `refund-policy.html`, `disclaimer.html`). |
-| `src/` | Design Tokens | Token styling (`tokens.css`) and shared constants (`site-data.js`). |
-| `.htaccess` | Server Config | Production Apache rules: MIME types for video/audio, Gzip compression, cache directives, security headers. |
-| `robots.txt` | SEO Config | Search engine crawler rules protecting admin and API while indexing landing pages. |
-| `sitemap.xml` | SEO Config | XML sitemap for Google and Bing indexing. |
+| File / Folder | Purpose & Details |
+| :--- | :--- |
+| `app/(home)/` | Main landing page (`/`): video hero, curated trips, trip customization modal with dynamic yield pricing, and the WhatsApp plan dispatcher. |
+| `app/(mobile)/mobile/` | Mobile web app (`/mobile`): 10 destinations, holiday passes, build-your-own pass, tour packages and the ₹1,999 checkout drawers. |
+| `app/(preview)/mobile-preview/` | Phone simulator (`/mobile-preview`) that frames `/mobile` in an iPhone/Pixel chassis. |
+| `app/(admin)/admin/` | Admin dashboard (`/admin`): login gate, supplier hold tracker (Booked 🟢 vs Not Booked 🔴), lifecycle stages, PNR notes and CSV export. |
+| `app/(legal)/legal/` | Legal pages: `/legal/privacy`, `/legal/terms`, `/legal/refund-policy`, `/legal/disclaimer`. |
+| `app/api/bookings/route.ts` | Bookings REST API (`GET`, `POST`, `PUT`, `DELETE`) with CORS headers and serialized, atomic writes to `data/bookings.json`. |
+| `app/api/rates/route.ts` | RateHawk B2B gateway with 15% agency markup, date-based yield fallback and buffered free-cancellation dates. |
+| `app/api/lead-capture/route.ts` | Lead capture handler (validated lead record; production hook point for Sheets/email). |
+| `app/globals.css` | Tailwind CSS v4 entry: brand tokens, breakpoints and compatibility rules. |
+| `components/` | Page UI, grouped by page (`home/`, `mobile/`, `admin/`, `legal/`, `preview/`). |
+| `lib/trips.ts` | The three curated Mauritius trips and the client-side date-yield pricing. |
+| `lib/catalog/` | Multi-destination catalog data (JSON) and types used by `/mobile`. |
+| `lib/server/` | Server-only code: booking store, RateHawk pricing, PHP-compatible input coercion. |
+| `lib/payment-stub.ts`, `lib/site-data.ts` | Payment gateway stub and swappable crew content. |
+| `data/bookings.json` | Persistent booking database (`[]` when empty). Not publicly served. |
+| `public/robots.txt`, `public/sitemap.xml` | SEO configuration. |
+| `next.config.ts` | Security headers and redirects/rewrites that keep the old `.html` and `.php` URLs working. |
+
+### Old URLs
+Every URL of the previous static/PHP site still works:
+
+| Old URL | Now |
+| :--- | :--- |
+| `/index.html`, `/mobile-index.html`, `/tablet-index.html`, `/index updated.html` | 308 redirect to `/` |
+| `/admin.html`, `/mobile.html`, `/mobile-preview.html` | 308 redirect to `/admin`, `/mobile`, `/mobile-preview` |
+| `/legal/*.html` | 308 redirect to `/legal/*` |
+| `/api/bookings.php`, `/api/rates.php` | Served by the new API routes (rewrite, same responses) |
 
 ---
 
 ## 3. Server Requirements
 
-* **Web Server:** Apache 2.4+ (recommended) or Nginx.
-* **PHP Version:** PHP 7.4, 8.0, 8.1, 8.2, or 8.3.
-* **PHP Extensions:** `curl`, `json`, `mbstring` (standard on virtually all shared and cloud hosting platforms).
-* **SSL:** HTTPS certificate recommended (free Let's Encrypt / AutoSSL).
+* **Runtime:** Node.js 20.9 or newer.
+* **Writable storage:** the `data/` directory (see above).
+* **Outbound HTTPS:** to `api.ratehawk.com` / `api-sandbox.ratehawk.com` for live rates.
+* **SSL:** HTTPS certificate recommended (free Let's Encrypt).
 
 ---
 
 ## 4. Admin Portal Access & Credentials
 
-* **URL:** `https://your-domain.com/admin.html`
+* **URL:** `https://your-domain.com/admin`
 * **Default Login ID:** `admin@passprive.travel`
 * **Default Password:** `PassPrive@2026#Admin`
+
+> The login gate runs in the browser, exactly as before, so the credentials ship in the page's JavaScript and `/api/bookings` itself is not authenticated. Treat the admin gate as a convenience, not as security.
 
 ### Key Admin Features:
 1. **Supplier Booking Tracking (🔴 Not Booked vs 🟢 Booked):**
@@ -80,9 +103,9 @@ Your developer does **not** need to run `npm install`, compile assets, configure
 
 ## 5. WhatsApp Integration Details
 
-* **Current Configured Number:** `+91 78382 15147` (Format: `917838215147`)
+* **Current Configured Number:** `+91 78382 15147` (Format: `917838215147`), set in `lib/whatsapp.ts`.
 * When a customer clicks **"Send Plan to WhatsApp"** on the website modal:
-  1. The inquiry is automatically sent to `api/bookings.php` and recorded in `data/bookings.json` with status `NEW_LEAD`.
+  1. The inquiry is sent to `/api/bookings` and recorded in `data/bookings.json` with status `NEW_LEAD`.
   2. The customer's WhatsApp application opens with a pre-filled, rich text itinerary breakdown containing:
      - Guest Full Name & Phone Number
      - Selected Curated Trip & Category (Couple, Family, Friends)
@@ -93,48 +116,31 @@ Your developer does **not** need to run `npm install`, compile assets, configure
 
 ---
 
-## 6. Nginx Configuration (If using Nginx instead of Apache)
-
-If deploying on Nginx instead of Apache, add this block to your server configuration:
+## 6. Reverse Proxy Example (Nginx)
 
 ```nginx
 server {
     listen 80;
     server_name your-domain.com;
-    root /var/www/html;
-    index index.html;
 
-    # Protect data directory
-    location ^~ /data/ {
-        deny all;
-        return 403;
-    }
-
-    # Pass PHP scripts to FastCGI
-    location ~ \.php$ {
-        include snippets/fastcgi-php.conf;
-        fastcgi_pass unix:/var/run/php/php8.2-fpm.sock;
-    }
-
-    # Static file caching
-    location ~* \.(jpg|jpeg|png|gif|svg|webp|ico|mp4|woff2)$ {
-        expires 7d;
-        add_header Cache-Control "public, no-transform";
-    }
-
-    # HTML no-cache for instant updates
-    location ~* \.html$ {
-        expires -1;
-        add_header Cache-Control "no-store, no-cache, must-revalidate";
+    location / {
+        proxy_pass http://127.0.0.1:3000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
     }
 }
 ```
+
+`data/` lives outside the web root, so it needs no extra protection rule.
 
 ---
 
 ## 7. RateHawk API Production Switch (When Ready)
 
-In [`api/rates.php`](file:///c:/Users/DELL/Desktop/passprive%20travel%20version%203/api/rates.php):
-* Set `$isProduction = true;` (line 16).
-* Enter production `$apiKeyId` and `$apiToken` (lines 14–15).
-* Markup margin is set via `$markupPercent = 15;` (line 23).
+Set these environment variables (see `.env.example`):
+
+* `RATEHAWK_KEY_ID` and `RATEHAWK_API_TOKEN`: production credentials.
+* `RATEHAWK_PRODUCTION=true`: switches from the sandbox to the production API.
+
+Without credentials, `/api/rates` skips the live call and uses the date-based yield model. The markup margin is `MARKUP_PERCENT` in `lib/server/rates.ts`.

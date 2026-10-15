@@ -1,0 +1,253 @@
+@import "tailwindcss";
+
+/*
+ * Tailwind v4 only applies `hover:` on devices that support hover. The original
+ * site used plain :hover (and Tailwind v3 for admin/mobile), so keep that.
+ */
+@custom-variant hover (&:hover);
+
+@theme {
+  /* Main site breakpoints, desktop-first: max-tab = <=1024px, max-mob = <=680px */
+  --breakpoint-tab: 1025px;
+  --breakpoint-mob: 681px;
+
+  /* PassPrivé brand palette (from the original :root tokens) */
+  --color-pp-orange: #ff4d12;
+  --color-pp-orange2: #ff7a00;
+  --color-pp-teal: #0e6f63;
+  --color-pp-sand: #fcf9f5;
+  --color-pp-sandwarm: #f5ede2;
+  --color-pp-ink: #1a140e;
+  --color-pp-inksoft: #4a4038;
+  --color-pp-gold: #e8b872;
+  --color-pp-goldbright: #f5c97a;
+  --color-pp-mint: #e9f6f1;
+  --color-pp-wa: #178858;
+  --color-pp-wahover: #127249;
+
+  /*
+   * The admin, mobile and preview pages were built on the Tailwind v3 CDN.
+   * v4 moved the default palette to OKLCH, so pin the shades those pages use
+   * to their v3 hex values to keep colors identical.
+   */
+  --color-gray-200: #e5e7eb;
+  --color-gray-400: #9ca3af;
+
+  --color-neutral-50: #fafafa;
+  --color-neutral-100: #f5f5f5;
+  --color-neutral-200: #e5e5e5;
+  --color-neutral-300: #d4d4d4;
+  --color-neutral-400: #a3a3a3;
+  --color-neutral-500: #737373;
+  --color-neutral-600: #525252;
+  --color-neutral-700: #404040;
+  --color-neutral-800: #262626;
+  --color-neutral-900: #171717;
+  --color-neutral-950: #0a0a0a;
+
+  --color-amber-50: #fffbeb;
+  --color-amber-100: #fef3c7;
+  --color-amber-200: #fde68a;
+  --color-amber-300: #fcd34d;
+  --color-amber-400: #fbbf24;
+  --color-amber-500: #f59e0b;
+  --color-amber-600: #d97706;
+  --color-amber-700: #b45309;
+  --color-amber-800: #92400e;
+  --color-amber-900: #78350f;
+  --color-amber-950: #451a03;
+
+  --color-emerald-50: #ecfdf5;
+  --color-emerald-100: #d1fae5;
+  --color-emerald-200: #a7f3d0;
+  --color-emerald-300: #6ee7b7;
+  --color-emerald-400: #34d399;
+  --color-emerald-500: #10b981;
+  --color-emerald-600: #059669;
+  --color-emerald-700: #047857;
+  --color-emerald-800: #065f46;
+  --color-emerald-900: #064e3b;
+  --color-emerald-950: #022c22;
+
+  --color-orange-50: #fff7ed;
+  --color-orange-100: #ffedd5;
+  --color-orange-200: #fed7aa;
+  --color-orange-300: #fdba74;
+  --color-orange-400: #fb923c;
+  --color-orange-500: #f97316;
+  --color-orange-600: #ea580c;
+  --color-orange-700: #c2410c;
+  --color-orange-800: #9a3412;
+  --color-orange-900: #7c2d12;
+  --color-orange-950: #431407;
+
+  --color-rose-50: #fff1f2;
+  --color-rose-100: #ffe4e6;
+  --color-rose-200: #fecdd3;
+  --color-rose-300: #fda4af;
+  --color-rose-400: #fb7185;
+  --color-rose-500: #f43f5e;
+  --color-rose-600: #e11d48;
+  --color-rose-700: #be123c;
+  --color-rose-800: #9f1239;
+  --color-rose-900: #881337;
+  --color-rose-950: #4c0519;
+
+  /* Tailwind v3 default mono stack (mobile pages); the admin console swaps in Geist Mono below. */
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  --color-teal-600: #0d9488;
+  --color-blue-900: #1e3a8a;
+
+  /*
+   * v3 font-size utilities set absolute (rem) line-heights that children inherit as fixed
+   * lengths; v4 uses unitless ratios. Restore the v3 values for the CDN-era pages.
+   */
+  --text-xs--line-height: 1rem;
+  --text-sm--line-height: 1.25rem;
+  --text-base--line-height: 1.5rem;
+  --text-lg--line-height: 1.75rem;
+  --text-xl--line-height: 1.75rem;
+  --text-2xl--line-height: 2rem;
+  --text-3xl--line-height: 2.25rem;
+  --text-4xl--line-height: 2.5rem;
+}
+
+/*
+ * Font stacks. The @font-face rules come from next/font (lib/fonts.ts, applied in each layout).
+ * Families are referenced by name rather than through the next/font variables so the stacks
+ * skip its metric-adjusted "Fallback" face: glyphs a font lacks (→, ⇄, ★) then fall through to
+ * system-ui exactly as in the original stylesheets.
+ */
+@theme inline {
+  --font-display: "Bricolage Grotesque", system-ui, -apple-system, sans-serif;
+  --font-body: "Instrument Sans", system-ui, -apple-system, sans-serif;
+  --font-hand: "Caveat", "Kalam", cursive;
+  --font-kalam: "Kalam", "Caveat", cursive;
+  --font-handwriting: "Caveat", cursive;
+  --font-sans: -apple-system, BlinkMacSystemFont, "Plus Jakarta Sans", sans-serif;
+}
+
+@layer base {
+  /* Tailwind v3 preflight defaults that v4 changed (border color, placeholder, button cursor). */
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: var(--color-gray-400);
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  /* v4's preflight trims Chrome's date-field internals; none of the original pages had that rule. */
+  ::-webkit-date-and-time-value {
+    min-height: revert;
+    text-align: revert;
+  }
+  ::-webkit-datetime-edit {
+    display: revert;
+  }
+  ::-webkit-datetime-edit-fields-wrapper {
+    padding: revert;
+  }
+  ::-webkit-calendar-picker-indicator {
+    line-height: revert;
+  }
+  ::-webkit-datetime-edit,
+  ::-webkit-datetime-edit-year-field,
+  ::-webkit-datetime-edit-month-field,
+  ::-webkit-datetime-edit-day-field,
+  ::-webkit-datetime-edit-hour-field,
+  ::-webkit-datetime-edit-minute-field,
+  ::-webkit-datetime-edit-second-field,
+  ::-webkit-datetime-edit-millisecond-field,
+  ::-webkit-datetime-edit-meridiem-field {
+    padding-block: revert;
+  }
+
+  /*
+   * v4's preflight uses `font: inherit` on form controls, which also wipes the browser's own
+   * font-variant (Safari's date field uses tabular digits). Neither the original pages nor
+   * Tailwind v3 did that.
+   */
+  :is(button, input, select, textarea) {
+    font-variant: revert;
+    font-kerning: revert;
+  }
+
+  /*
+   * The landing page was written without a CSS reset: form controls kept the UA line-height,
+   * font features and placeholder colour.
+   */
+  html[data-page="home"] :is(button, input, select, textarea) {
+    line-height: normal;
+    font-feature-settings: revert;
+    font-variation-settings: revert;
+  }
+  html[data-page="home"] ::placeholder {
+    color: revert;
+    opacity: revert;
+  }
+
+  html[data-page="admin"] {
+    --font-mono: "Geist Mono", ui-monospace, monospace;
+  }
+
+  /* Admin console: native selects and scrollbars (not expressible as utilities). */
+  html[data-page="admin"] select,
+  html[data-page="admin"] select option {
+    background-color: #141414 !important;
+    color: #ededed !important;
+  }
+  html[data-page="admin"] ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  html[data-page="admin"] ::-webkit-scrollbar-track {
+    background: #0a0a0a;
+  }
+  html[data-page="admin"] ::-webkit-scrollbar-thumb {
+    background: #2a2a2a;
+    border-radius: 3px;
+  }
+  html[data-page="admin"] ::-webkit-scrollbar-thumb:hover {
+    background: #3a3a3a;
+  }
+
+  /* Mobile preview simulator: thin scrollbar inside the device iframe. */
+  html[data-page="preview"] iframe::-webkit-scrollbar {
+    width: 4px;
+  }
+  html[data-page="preview"] iframe::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+  }
+}
+
+/*
+ * Tailwind v3 `space-y-*` semantics: every non-first child gets margin-top N and margin-bottom 0,
+ * overriding the child's own margins (v4's space-y lets child margins win). Used by /mobile and
+ * /mobile-preview, whose markup was written against the v3 behaviour.
+ */
+@utility stack-y-* {
+  & > :not([hidden]) ~ :not([hidden]) {
+    margin-top: calc(var(--spacing) * --value(number));
+    margin-bottom: 0;
+  }
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

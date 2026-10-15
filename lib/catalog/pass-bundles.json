@@ -1,0 +1,2122 @@
+{
+  "mauritius": [
+    {
+      "id": "mru-pass-romantic",
+      "name": "Mauritius Romantic Lagoon Pass",
+      "emoji": "",
+      "theme": "romantic",
+      "tagline": "Wild dolphin swimming, beachfront 5-course dinner & oceanfront suite.",
+      "badge": "Couples Bestseller",
+      "includedItemIds": [
+        "mru_act_dolphin",
+        "mru_dine_beach",
+        "mru_hotel_ocean_suite"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 17200,
+      "passPrice": 11800,
+      "savingsAmount": 5400,
+      "savingsPercent": 31,
+      "includedItems": [
+        {
+          "id": "mru_act_dolphin",
+          "name": "Tamarin Bay Wild Dolphin Swimming & Snorkel",
+          "category": "activity",
+          "duration": "3.5 Hours",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 4800,
+          "passPrice": 3500
+        },
+        {
+          "id": "mru_dine_beach",
+          "name": "Private Candlelight 5-Course Beach Dinner",
+          "category": "dining",
+          "duration": "Evening",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 7600,
+          "passPrice": 5500
+        },
+        {
+          "id": "mru_hotel_ocean_suite",
+          "name": "Deluxe Oceanfront Suite Upgrade",
+          "category": "hotel",
+          "duration": "Full Stay",
+          "image": "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 4800,
+          "passPrice": 3500
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "mru-pass-adventure",
+      "name": "Mauritius Island Thrillseeker Pass",
+      "emoji": "",
+      "theme": "adventure",
+      "tagline": "Underwater waterfall helicopter flight, speedboat safari & scuba diving.",
+      "badge": "Adventure Top Pick",
+      "includedItemIds": [
+        "mru_act_heli",
+        "mru_act_ile_cerfs",
+        "mru_act_scuba"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 24800,
+      "passPrice": 16900,
+      "savingsAmount": 7900,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "mru_act_heli",
+          "name": "Le Morne Underwater Waterfall Helicopter Tour",
+          "category": "activity",
+          "duration": "25 Mins",
+          "image": "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 13100,
+          "passPrice": 9500
+        },
+        {
+          "id": "mru_act_ile_cerfs",
+          "name": "Île aux Cerfs Speedboat Safari & Beach BBQ",
+          "category": "activity",
+          "duration": "6 Hours",
+          "image": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 6200,
+          "passPrice": 4500
+        },
+        {
+          "id": "mru_act_scuba",
+          "name": "PADI Discovery Scuba Diving on Coral Reef",
+          "category": "activity",
+          "duration": "3 Hours",
+          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5500,
+          "passPrice": 4000
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "mru-pass-cultural",
+      "name": "Mauritius Coast & Heritage Pass",
+      "emoji": "",
+      "theme": "cultural",
+      "tagline": "Speedboat safari, wild dolphin lagoon & Mercedes private chauffeur.",
+      "badge": "Scenic & Heritage",
+      "includedItemIds": [
+        "mru_act_ile_cerfs",
+        "mru_act_dolphin",
+        "mru_trans_vclass"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 17200,
+      "passPrice": 11800,
+      "savingsAmount": 5400,
+      "savingsPercent": 31,
+      "includedItems": [
+        {
+          "id": "mru_act_ile_cerfs",
+          "name": "Île aux Cerfs Speedboat Safari & Beach BBQ",
+          "category": "activity",
+          "duration": "6 Hours",
+          "image": "https://images.unsplash.com/photo-1506953823976-52e1fdc0149a?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 6200,
+          "passPrice": 4500
+        },
+        {
+          "id": "mru_act_dolphin",
+          "name": "Tamarin Bay Wild Dolphin Swimming & Snorkel",
+          "category": "activity",
+          "duration": "3.5 Hours",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 4800,
+          "passPrice": 3500
+        },
+        {
+          "id": "mru_trans_vclass",
+          "name": "Private Mercedes V-Class Luxury Chauffeur",
+          "category": "transfer",
+          "duration": "Roundtrip",
+          "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 6200,
+          "passPrice": 4500
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "mru-pass-luxury",
+      "name": "Mauritius Signature VIP Pass",
+      "emoji": "",
+      "theme": "luxury",
+      "tagline": "Helicopter tour, private pool villa upgrade, 5-course dinner & Mercedes V-Class.",
+      "badge": "Ultra Luxury",
+      "includedItemIds": [
+        "mru_act_heli",
+        "mru_hotel_pool_villa",
+        "mru_dine_beach",
+        "mru_trans_vclass"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 37300,
+      "passPrice": 25400,
+      "savingsAmount": 11900,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "mru_act_heli",
+          "name": "Le Morne Underwater Waterfall Helicopter Tour",
+          "category": "activity",
+          "duration": "25 Mins",
+          "image": "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 13100,
+          "passPrice": 9500
+        },
+        {
+          "id": "mru_hotel_pool_villa",
+          "name": "Private Beach Pool Villa Upgrade",
+          "category": "hotel",
+          "duration": "Full Stay",
+          "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 10400,
+          "passPrice": 7500
+        },
+        {
+          "id": "mru_dine_beach",
+          "name": "Private Candlelight 5-Course Beach Dinner",
+          "category": "dining",
+          "duration": "Evening",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 7600,
+          "passPrice": 5500
+        },
+        {
+          "id": "mru_trans_vclass",
+          "name": "Private Mercedes V-Class Luxury Chauffeur",
+          "category": "transfer",
+          "duration": "Roundtrip",
+          "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 6200,
+          "passPrice": 4500
+        }
+      ],
+      "itemCount": 4,
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=600&q=70"
+    }
+  ],
+  "dubai": [
+    {
+      "id": "dxb-pass-romantic",
+      "name": "Dubai Sunset & Romance Pass",
+      "emoji": "",
+      "theme": "romantic",
+      "tagline": "50ft private sunset yacht, Burj Khalifa Sky Pass & Burj view suite upgrade.",
+      "badge": "Couples Bestseller",
+      "includedItemIds": [
+        "dxb_act_marina_yacht",
+        "dxb_act_burj_top",
+        "dxb_hotel_burj_view"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 17800,
+      "passPrice": 12100,
+      "savingsAmount": 5700,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "dxb_act_marina_yacht",
+          "name": "Dubai Marina 2-Hour Private Sunset Luxury Yacht",
+          "category": "activity",
+          "duration": "2 Hours",
+          "image": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 6600,
+          "passPrice": 4800
+        },
+        {
+          "id": "dxb_act_burj_top",
+          "name": "Burj Khalifa Levels 124 & 125 Fast-Track Sky Pass",
+          "category": "activity",
+          "duration": "2 Hours",
+          "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5700,
+          "passPrice": 4100
+        },
+        {
+          "id": "dxb_hotel_burj_view",
+          "name": "Burj Khalifa Panoramic View Suite Upgrade",
+          "category": "hotel",
+          "duration": "Full Stay",
+          "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5500,
+          "passPrice": 4000
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "dxb-pass-adventure",
+      "name": "Dubai Desert & Aqua Thrill Pass",
+      "emoji": "",
+      "theme": "adventure",
+      "tagline": "Red dune 4x4 safari with VIP BBQ, Atlantis Aquaventure waterpark & Burj Khalifa.",
+      "badge": "High Adrenaline",
+      "includedItemIds": [
+        "dxb_act_desert_safari",
+        "dxb_act_aquaventure",
+        "dxb_act_burj_top"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 19100,
+      "passPrice": 13000,
+      "savingsAmount": 6100,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "dxb_act_desert_safari",
+          "name": "Red Dune 4x4 Desert Safari & VIP BBQ Camp",
+          "category": "activity",
+          "duration": "6 Hours",
+          "image": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 4400,
+          "passPrice": 3200
+        },
+        {
+          "id": "dxb_act_aquaventure",
+          "name": "Atlantis Aquaventure Waterpark & Aquarium Pass",
+          "category": "activity",
+          "duration": "Full Day",
+          "image": "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 9000,
+          "passPrice": 6500
+        },
+        {
+          "id": "dxb_act_burj_top",
+          "name": "Burj Khalifa Levels 124 & 125 Fast-Track Sky Pass",
+          "category": "activity",
+          "duration": "2 Hours",
+          "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5700,
+          "passPrice": 4100
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1451337516015-6b6e9a44a8a3?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "dxb-pass-cultural",
+      "name": "Dubai Iconic Landmarks Pass",
+      "emoji": "",
+      "theme": "cultural",
+      "tagline": "Burj Khalifa Top (Lvl 124-125), Red Dune desert camp & private Tesla chauffeur.",
+      "badge": "First-Timer Favorite",
+      "includedItemIds": [
+        "dxb_act_burj_top",
+        "dxb_act_desert_safari",
+        "dxb_trans_tesla"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 15300,
+      "passPrice": 10400,
+      "savingsAmount": 4900,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "dxb_act_burj_top",
+          "name": "Burj Khalifa Levels 124 & 125 Fast-Track Sky Pass",
+          "category": "activity",
+          "duration": "2 Hours",
+          "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5700,
+          "passPrice": 4100
+        },
+        {
+          "id": "dxb_act_desert_safari",
+          "name": "Red Dune 4x4 Desert Safari & VIP BBQ Camp",
+          "category": "activity",
+          "duration": "6 Hours",
+          "image": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 4400,
+          "passPrice": 3200
+        },
+        {
+          "id": "dxb_trans_tesla",
+          "name": "Private Tesla Model X / Mercedes Airport Chauffeur",
+          "category": "transfer",
+          "duration": "Roundtrip",
+          "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5200,
+          "passPrice": 3800
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "dxb-pass-luxury",
+      "name": "Dubai Royal VIP Lifestyle Pass",
+      "emoji": "",
+      "theme": "luxury",
+      "tagline": "Burj Al Arab Michelin sky lunch, Palm Jumeirah villa, luxury yacht & Tesla chauffeur.",
+      "badge": "Ultra Luxury",
+      "includedItemIds": [
+        "dxb_dine_almuntaha",
+        "dxb_hotel_palm_pool",
+        "dxb_act_marina_yacht",
+        "dxb_trans_tesla"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 40800,
+      "passPrice": 27800,
+      "savingsAmount": 13000,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "dxb_dine_almuntaha",
+          "name": "Burj Al Arab Al Muntaha 4-Course Sky Lunch",
+          "category": "dining",
+          "duration": "2 Hours",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 17300,
+          "passPrice": 12500
+        },
+        {
+          "id": "dxb_hotel_palm_pool",
+          "name": "Palm Jumeirah Private Pool Beachfront Suite",
+          "category": "hotel",
+          "duration": "Full Stay",
+          "image": "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 11700,
+          "passPrice": 8500
+        },
+        {
+          "id": "dxb_act_marina_yacht",
+          "name": "Dubai Marina 2-Hour Private Sunset Luxury Yacht",
+          "category": "activity",
+          "duration": "2 Hours",
+          "image": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 6600,
+          "passPrice": 4800
+        },
+        {
+          "id": "dxb_trans_tesla",
+          "name": "Private Tesla Model X / Mercedes Airport Chauffeur",
+          "category": "transfer",
+          "duration": "Roundtrip",
+          "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5200,
+          "passPrice": 3800
+        }
+      ],
+      "itemCount": 4,
+      "image": "https://images.unsplash.com/photo-1580674285054-bed31e145f59?auto=format&fit=crop&w=600&q=70"
+    }
+  ],
+  "paris": [
+    {
+      "id": "par-pass-romantic",
+      "name": "Parisian Romance & Seine Pass",
+      "emoji": "",
+      "theme": "romantic",
+      "tagline": "Bateaux Parisiens gourmet Seine dinner cruise, Eiffel balcony suite & Moulin Rouge.",
+      "badge": "Romance Benchmark",
+      "includedItemIds": [
+        "par_act_seine_dinner",
+        "par_hotel_eiffel_suite",
+        "par_act_moulin_rouge"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 28400,
+      "passPrice": 19400,
+      "savingsAmount": 9000,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "par_act_seine_dinner",
+          "name": "Bateaux Parisiens Gourmet 3-Course Seine River Cruise",
+          "category": "activity",
+          "duration": "2.5 Hours",
+          "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 8100,
+          "passPrice": 5900
+        },
+        {
+          "id": "par_hotel_eiffel_suite",
+          "name": "Eiffel Tower View Balcony Suite Upgrade",
+          "category": "hotel",
+          "duration": "Full Stay",
+          "image": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 7600,
+          "passPrice": 5500
+        },
+        {
+          "id": "par_act_moulin_rouge",
+          "name": "Moulin Rouge Féerie Cabaret with Champagne",
+          "category": "activity",
+          "duration": "2 Hours",
+          "image": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 12700,
+          "passPrice": 9200
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "par-pass-adventure",
+      "name": "Paris Monuments & Cabaret Pass",
+      "emoji": "",
+      "theme": "adventure",
+      "tagline": "Louvre masterpiece tour, Palace of Versailles passport & Seine dinner cruise.",
+      "badge": "Most Popular",
+      "includedItemIds": [
+        "par_act_louvre_vip",
+        "par_act_versailles",
+        "par_act_seine_dinner"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 20500,
+      "passPrice": 14000,
+      "savingsAmount": 6500,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "par_act_louvre_vip",
+          "name": "Louvre Museum Skip-the-Line Masterpiece Tour",
+          "category": "activity",
+          "duration": "2.5 Hours",
+          "image": "https://images.unsplash.com/photo-1565099824688-e93eb20fe622?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5800,
+          "passPrice": 4200
+        },
+        {
+          "id": "par_act_versailles",
+          "name": "Palace of Versailles Passport & Hall of Mirrors",
+          "category": "activity",
+          "duration": "Half Day",
+          "image": "https://images.unsplash.com/photo-1549144511-f099e773c147?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 6600,
+          "passPrice": 4800
+        },
+        {
+          "id": "par_act_seine_dinner",
+          "name": "Bateaux Parisiens Gourmet 3-Course Seine River Cruise",
+          "category": "activity",
+          "duration": "2.5 Hours",
+          "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 8100,
+          "passPrice": 5900
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "par-pass-cultural",
+      "name": "Paris Art & Royal Heritage Pass",
+      "emoji": "",
+      "theme": "cultural",
+      "tagline": "Louvre Museum skip-the-line, Palace of Versailles Hall of Mirrors & Le Marais suite.",
+      "badge": "Art & Culture",
+      "includedItemIds": [
+        "par_act_louvre_vip",
+        "par_act_versailles",
+        "par_hotel_marais_boutique"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 18200,
+      "passPrice": 12400,
+      "savingsAmount": 5800,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "par_act_louvre_vip",
+          "name": "Louvre Museum Skip-the-Line Masterpiece Tour",
+          "category": "activity",
+          "duration": "2.5 Hours",
+          "image": "https://images.unsplash.com/photo-1565099824688-e93eb20fe622?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5800,
+          "passPrice": 4200
+        },
+        {
+          "id": "par_act_versailles",
+          "name": "Palace of Versailles Passport & Hall of Mirrors",
+          "category": "activity",
+          "duration": "Half Day",
+          "image": "https://images.unsplash.com/photo-1549144511-f099e773c147?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 6600,
+          "passPrice": 4800
+        },
+        {
+          "id": "par_hotel_marais_boutique",
+          "name": "Le Marais Designer Heritage Suite",
+          "category": "hotel",
+          "duration": "Full Stay",
+          "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5800,
+          "passPrice": 4200
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1565099824688-e93eb20fe622?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "par-pass-luxury",
+      "name": "Paris Haute Couture VIP Pass",
+      "emoji": "",
+      "theme": "luxury",
+      "tagline": "Le Jules Verne Eiffel tasting, Mercedes S-Class chauffeur, Moulin Rouge & Eiffel suite.",
+      "badge": "Haute Gastronomie",
+      "includedItemIds": [
+        "par_dine_julesverne",
+        "par_trans_sclass",
+        "par_act_moulin_rouge",
+        "par_hotel_eiffel_suite"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 51400,
+      "passPrice": 35000,
+      "savingsAmount": 16400,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "par_dine_julesverne",
+          "name": "Le Jules Verne Eiffel Tower 5-Course Tasting",
+          "category": "dining",
+          "duration": "Evening",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 22100,
+          "passPrice": 16000
+        },
+        {
+          "id": "par_trans_sclass",
+          "name": "Private Mercedes S-Class CDG Airport Chauffeur",
+          "category": "transfer",
+          "duration": "Roundtrip",
+          "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 9000,
+          "passPrice": 6500
+        },
+        {
+          "id": "par_act_moulin_rouge",
+          "name": "Moulin Rouge Féerie Cabaret with Champagne",
+          "category": "activity",
+          "duration": "2 Hours",
+          "image": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 12700,
+          "passPrice": 9200
+        },
+        {
+          "id": "par_hotel_eiffel_suite",
+          "name": "Eiffel Tower View Balcony Suite Upgrade",
+          "category": "hotel",
+          "duration": "Full Stay",
+          "image": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 7600,
+          "passPrice": 5500
+        }
+      ],
+      "itemCount": 4,
+      "image": "https://images.unsplash.com/photo-1549144511-f099e773c147?auto=format&fit=crop&w=600&q=70"
+    }
+  ],
+  "thailand": [
+    {
+      "id": "th-pass-romantic",
+      "name": "Phuket Sunset & Andaman Romance Pass",
+      "emoji": "",
+      "theme": "romantic",
+      "tagline": "Andaman sea-view pool villa, floating boutique seafood feast & James Bond canoe.",
+      "badge": "Honeymoon Choice",
+      "includedItemIds": [
+        "th_hotel_pool_villa",
+        "th_dine_floating",
+        "th_act_jamesbond"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 15700,
+      "passPrice": 10700,
+      "savingsAmount": 5000,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "th_hotel_pool_villa",
+          "name": "Andaman Sea-View Private Pool Villa Upgrade",
+          "category": "hotel",
+          "duration": "Full Stay",
+          "image": "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 6200,
+          "passPrice": 4500
+        },
+        {
+          "id": "th_dine_floating",
+          "name": "Floating Andaman Sea-Boutique Seafood Feast",
+          "category": "dining",
+          "duration": "Evening",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 4800,
+          "passPrice": 3500
+        },
+        {
+          "id": "th_act_jamesbond",
+          "name": "Phang Nga Bay & James Bond Island Sea Canoe",
+          "category": "activity",
+          "duration": "7 Hours",
+          "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 4700,
+          "passPrice": 3400
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "th-pass-adventure",
+      "name": "Phuket Islands & Wildlife Pass",
+      "emoji": "",
+      "theme": "adventure",
+      "tagline": "Phi Phi & Maya Bay speedboat, Similan Islands marine snorkel & elephant sanctuary.",
+      "badge": "Island Adventure",
+      "includedItemIds": [
+        "th_act_phiphi",
+        "th_act_similan",
+        "th_act_elephant"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 17600,
+      "passPrice": 12000,
+      "savingsAmount": 5600,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "th_act_phiphi",
+          "name": "Phi Phi Islands & Maya Bay Speedboat + Lunch",
+          "category": "activity",
+          "duration": "Full Day",
+          "image": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5200,
+          "passPrice": 3800
+        },
+        {
+          "id": "th_act_similan",
+          "name": "Similan Islands Marine Park Snorkel Day Trip",
+          "category": "activity",
+          "duration": "Full Day",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 6600,
+          "passPrice": 4800
+        },
+        {
+          "id": "th_act_elephant",
+          "name": "Phuket Ethical Elephant Sanctuary Care & Mud Bath",
+          "category": "activity",
+          "duration": "Half Day",
+          "image": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5800,
+          "passPrice": 4200
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1528181304800-259b08848526?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "th-pass-cultural",
+      "name": "Phuket Heritage & Sanctuary Pass",
+      "emoji": "",
+      "theme": "cultural",
+      "tagline": "Ethical elephant sanctuary care, Phang Nga bay sea canoe & VIP mini-coach.",
+      "badge": "Eco & Cultural",
+      "includedItemIds": [
+        "th_act_elephant",
+        "th_act_jamesbond",
+        "th_trans_vipvan"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 13500,
+      "passPrice": 9200,
+      "savingsAmount": 4300,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "th_act_elephant",
+          "name": "Phuket Ethical Elephant Sanctuary Care & Mud Bath",
+          "category": "activity",
+          "duration": "Half Day",
+          "image": "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5800,
+          "passPrice": 4200
+        },
+        {
+          "id": "th_act_jamesbond",
+          "name": "Phang Nga Bay & James Bond Island Sea Canoe",
+          "category": "activity",
+          "duration": "7 Hours",
+          "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 4700,
+          "passPrice": 3400
+        },
+        {
+          "id": "th_trans_vipvan",
+          "name": "Private VIP Toyota Commuter Mini-Coach Transfer",
+          "category": "transfer",
+          "duration": "Roundtrip",
+          "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 3000,
+          "passPrice": 2200
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1508009603885-50cf7c579365?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "th-pass-luxury",
+      "name": "Phuket Imperial Andaman Pass",
+      "emoji": "",
+      "theme": "luxury",
+      "tagline": "Private pool villa, floating seafood feast, Similan marine snorkel & VIP coach.",
+      "badge": "VIP Island Luxury",
+      "includedItemIds": [
+        "th_hotel_pool_villa",
+        "th_dine_floating",
+        "th_act_similan",
+        "th_trans_vipvan"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 20600,
+      "passPrice": 14100,
+      "savingsAmount": 6500,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "th_hotel_pool_villa",
+          "name": "Andaman Sea-View Private Pool Villa Upgrade",
+          "category": "hotel",
+          "duration": "Full Stay",
+          "image": "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 6200,
+          "passPrice": 4500
+        },
+        {
+          "id": "th_dine_floating",
+          "name": "Floating Andaman Sea-Boutique Seafood Feast",
+          "category": "dining",
+          "duration": "Evening",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 4800,
+          "passPrice": 3500
+        },
+        {
+          "id": "th_act_similan",
+          "name": "Similan Islands Marine Park Snorkel Day Trip",
+          "category": "activity",
+          "duration": "Full Day",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 6600,
+          "passPrice": 4800
+        },
+        {
+          "id": "th_trans_vipvan",
+          "name": "Private VIP Toyota Commuter Mini-Coach Transfer",
+          "category": "transfer",
+          "duration": "Roundtrip",
+          "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 3000,
+          "passPrice": 2200
+        }
+      ],
+      "itemCount": 4,
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=600&q=70"
+    }
+  ],
+  "vietnam": [
+    {
+      "id": "vn-pass-romantic",
+      "name": "Da Nang & Hoi An Lantern Romance Pass",
+      "emoji": "",
+      "theme": "romantic",
+      "tagline": "Hoi An riverside pool villa, lantern riverboat with night market & Hue imperial feast.",
+      "badge": "Romantic Charm",
+      "includedItemIds": [
+        "vn_hotel_hoian_villa",
+        "vn_act_hoian_boat",
+        "vn_dine_imperial"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 11200,
+      "passPrice": 7700,
+      "savingsAmount": 3500,
+      "savingsPercent": 31,
+      "includedItems": [
+        {
+          "id": "vn_hotel_hoian_villa",
+          "name": "Hoi An Riverside Ancient Heritage Pool Villa",
+          "category": "hotel",
+          "duration": "Full Stay",
+          "image": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5200,
+          "passPrice": 3800
+        },
+        {
+          "id": "vn_act_hoian_boat",
+          "name": "Hoi An Evening Lantern Riverboat & Night Market",
+          "category": "activity",
+          "duration": "3 Hours",
+          "image": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 3000,
+          "passPrice": 2200
+        },
+        {
+          "id": "vn_dine_imperial",
+          "name": "Hue Imperial Palace 7-Course Royal Tasting Feast",
+          "category": "dining",
+          "duration": "Evening",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 3000,
+          "passPrice": 2200
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "vn-pass-adventure",
+      "name": "Central Vietnam Mountain & Coast Pass",
+      "emoji": "",
+      "theme": "adventure",
+      "tagline": "Ba Na Hills Golden Bridge cable car, Cham Island marine snorkel & Marble Mountains.",
+      "badge": "Top Highlights",
+      "includedItemIds": [
+        "vn_act_bana_hills",
+        "vn_act_cham_island",
+        "vn_act_marble"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 11400,
+      "passPrice": 7700,
+      "savingsAmount": 3700,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "vn_act_bana_hills",
+          "name": "Ba Na Hills Golden Hand Bridge Cable Car Pass",
+          "category": "activity",
+          "duration": "Full Day",
+          "image": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5000,
+          "passPrice": 3600
+        },
+        {
+          "id": "vn_act_cham_island",
+          "name": "Cham Island UNESCO Marine Biosphere Snorkel Trip",
+          "category": "activity",
+          "duration": "6 Hours",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 3900,
+          "passPrice": 2800
+        },
+        {
+          "id": "vn_act_marble",
+          "name": "Marble Mountains Sanctuary & Am Phu Cave Explorer",
+          "category": "activity",
+          "duration": "Half Day",
+          "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 2500,
+          "passPrice": 1800
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "vn-pass-cultural",
+      "name": "Vietnam Ancient Heritage Pass",
+      "emoji": "",
+      "theme": "cultural",
+      "tagline": "Marble Mountains sanctuary, Hoi An lantern boat & Hue 7-course royal feast.",
+      "badge": "Heritage Lover",
+      "includedItemIds": [
+        "vn_act_marble",
+        "vn_act_hoian_boat",
+        "vn_dine_imperial"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 8500,
+      "passPrice": 5800,
+      "savingsAmount": 2700,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "vn_act_marble",
+          "name": "Marble Mountains Sanctuary & Am Phu Cave Explorer",
+          "category": "activity",
+          "duration": "Half Day",
+          "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 2500,
+          "passPrice": 1800
+        },
+        {
+          "id": "vn_act_hoian_boat",
+          "name": "Hoi An Evening Lantern Riverboat & Night Market",
+          "category": "activity",
+          "duration": "3 Hours",
+          "image": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 3000,
+          "passPrice": 2200
+        },
+        {
+          "id": "vn_dine_imperial",
+          "name": "Hue Imperial Palace 7-Course Royal Tasting Feast",
+          "category": "dining",
+          "duration": "Evening",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 3000,
+          "passPrice": 2200
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "vn-pass-luxury",
+      "name": "Vietnam Executive Coastline Pass",
+      "emoji": "",
+      "theme": "luxury",
+      "tagline": "My Khe beachfront suite, DCar VIP limousine, Ba Na Hills & Hue imperial dining.",
+      "badge": "VIP Executive",
+      "includedItemIds": [
+        "vn_hotel_beach_suite",
+        "vn_trans_limo",
+        "vn_act_bana_hills",
+        "vn_dine_imperial"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 14700,
+      "passPrice": 10100,
+      "savingsAmount": 4600,
+      "savingsPercent": 31,
+      "includedItems": [
+        {
+          "id": "vn_hotel_beach_suite",
+          "name": "My Khe Beachfront Luxury Balcony Suite",
+          "category": "hotel",
+          "duration": "Full Stay",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 3400,
+          "passPrice": 2500
+        },
+        {
+          "id": "vn_trans_limo",
+          "name": "Luxury DCar VIP Limousine Transit Da Nang to Hoi An",
+          "category": "transfer",
+          "duration": "Roundtrip",
+          "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 3300,
+          "passPrice": 2400
+        },
+        {
+          "id": "vn_act_bana_hills",
+          "name": "Ba Na Hills Golden Hand Bridge Cable Car Pass",
+          "category": "activity",
+          "duration": "Full Day",
+          "image": "https://images.unsplash.com/photo-1528127269322-539801943592?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5000,
+          "passPrice": 3600
+        },
+        {
+          "id": "vn_dine_imperial",
+          "name": "Hue Imperial Palace 7-Course Royal Tasting Feast",
+          "category": "dining",
+          "duration": "Evening",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 3000,
+          "passPrice": 2200
+        }
+      ],
+      "itemCount": 4,
+      "image": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=600&q=70"
+    }
+  ],
+  "singapore": [
+    {
+      "id": "sg-pass-romantic",
+      "name": "Singapore Skyline & Garden Romance Pass",
+      "emoji": "",
+      "theme": "romantic",
+      "tagline": "Marina Bay Sands SkyPark & CÉ LA VI cocktail, Gardens by the Bay & MBS premier suite.",
+      "badge": "Skyline Romance",
+      "includedItemIds": [
+        "sg_act_mbs_cocktail",
+        "sg_act_gardens",
+        "sg_hotel_mbs_view"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 18100,
+      "passPrice": 12300,
+      "savingsAmount": 5800,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "sg_act_mbs_cocktail",
+          "name": "Marina Bay Sands SkyPark & CÉ LA VI Cocktail",
+          "category": "activity",
+          "duration": "Evening",
+          "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 3400,
+          "passPrice": 2500
+        },
+        {
+          "id": "sg_act_gardens",
+          "name": "Gardens by the Bay Cloud Forest, Flower Dome & Skyway",
+          "category": "activity",
+          "duration": "3 Hours",
+          "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 3900,
+          "passPrice": 2800
+        },
+        {
+          "id": "sg_hotel_mbs_view",
+          "name": "Marina Bay Sky-View Premier Suite Upgrade",
+          "category": "hotel",
+          "duration": "Full Stay",
+          "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 10800,
+          "passPrice": 7800
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "sg-pass-adventure",
+      "name": "Singapore Action & Thrill Pass",
+      "emoji": "",
+      "theme": "adventure",
+      "tagline": "Universal Studios VIP Express, Singapore Night Safari tram & Gardens by the Bay.",
+      "badge": "Family & Thrills",
+      "includedItemIds": [
+        "sg_act_universal",
+        "sg_act_night_safari",
+        "sg_act_gardens"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 16300,
+      "passPrice": 11100,
+      "savingsAmount": 5200,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "sg_act_universal",
+          "name": "Universal Studios Singapore Express VIP Pass",
+          "category": "activity",
+          "duration": "Full Day",
+          "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 7700,
+          "passPrice": 5600
+        },
+        {
+          "id": "sg_act_night_safari",
+          "name": "Singapore Night Safari with Guided Tram Tour",
+          "category": "activity",
+          "duration": "3.5 Hours",
+          "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 4700,
+          "passPrice": 3400
+        },
+        {
+          "id": "sg_act_gardens",
+          "name": "Gardens by the Bay Cloud Forest, Flower Dome & Skyway",
+          "category": "activity",
+          "duration": "3 Hours",
+          "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 3900,
+          "passPrice": 2800
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1565967511849-76a60a516170?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "sg-pass-cultural",
+      "name": "Singapore Heritage & Safari Pass",
+      "emoji": "",
+      "theme": "cultural",
+      "tagline": "Gardens by the Bay Flower Dome, Singapore Night Safari & Candlenut Michelin dinner.",
+      "badge": "Peranakan Heritage",
+      "includedItemIds": [
+        "sg_act_gardens",
+        "sg_act_night_safari",
+        "sg_dine_candlenut"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 17600,
+      "passPrice": 11900,
+      "savingsAmount": 5700,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "sg_act_gardens",
+          "name": "Gardens by the Bay Cloud Forest, Flower Dome & Skyway",
+          "category": "activity",
+          "duration": "3 Hours",
+          "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 3900,
+          "passPrice": 2800
+        },
+        {
+          "id": "sg_act_night_safari",
+          "name": "Singapore Night Safari with Guided Tram Tour",
+          "category": "activity",
+          "duration": "3.5 Hours",
+          "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 4700,
+          "passPrice": 3400
+        },
+        {
+          "id": "sg_dine_candlenut",
+          "name": "Michelin-Starred Candlenut Peranakan Tasting Dinner",
+          "category": "dining",
+          "duration": "Evening",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 9000,
+          "passPrice": 6500
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1506351421178-63b52a2d2562?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "sg-pass-luxury",
+      "name": "Singapore Lion City Ultra VIP Pass",
+      "emoji": "",
+      "theme": "luxury",
+      "tagline": "Sentosa beachfront villa, Changi Mercedes chauffeur, Candlenut dinner & Universal VIP.",
+      "badge": "Ultra Luxury",
+      "includedItemIds": [
+        "sg_hotel_sentosa_villa",
+        "sg_trans_mercedes",
+        "sg_dine_candlenut",
+        "sg_act_universal"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 31100,
+      "passPrice": 21200,
+      "savingsAmount": 9900,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "sg_hotel_sentosa_villa",
+          "name": "Sentosa Island Beachfront Luxury Spa Villa",
+          "category": "hotel",
+          "duration": "Full Stay",
+          "image": "https://images.unsplash.com/photo-1540541338287-41700207dee6?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 8600,
+          "passPrice": 6200
+        },
+        {
+          "id": "sg_trans_mercedes",
+          "name": "Changi Airport VIP Fast-Track & Mercedes Chauffeur",
+          "category": "transfer",
+          "duration": "Roundtrip",
+          "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5800,
+          "passPrice": 4200
+        },
+        {
+          "id": "sg_dine_candlenut",
+          "name": "Michelin-Starred Candlenut Peranakan Tasting Dinner",
+          "category": "dining",
+          "duration": "Evening",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 9000,
+          "passPrice": 6500
+        },
+        {
+          "id": "sg_act_universal",
+          "name": "Universal Studios Singapore Express VIP Pass",
+          "category": "activity",
+          "duration": "Full Day",
+          "image": "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 7700,
+          "passPrice": 5600
+        }
+      ],
+      "itemCount": 4,
+      "image": "https://images.unsplash.com/photo-1508963493744-76fce69379c0?auto=format&fit=crop&w=600&q=70"
+    }
+  ],
+  "australia": [
+    {
+      "id": "au-pass-romantic",
+      "name": "Sydney Harbour Sunset Romance Pass",
+      "emoji": "",
+      "theme": "romantic",
+      "tagline": "Captain Cook sunset dinner cruise, Sydney Harbour & Opera suite & revolving tower dinner.",
+      "badge": "Iconic Romance",
+      "includedItemIds": [
+        "au_act_harbour_dinner",
+        "au_hotel_sydney_harbour",
+        "au_dine_tower"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 27500,
+      "passPrice": 18700,
+      "savingsAmount": 8800,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "au_act_harbour_dinner",
+          "name": "Sydney Harbour Captain Cook 3-Course Sunset Cruise",
+          "category": "activity",
+          "duration": "2.5 Hours",
+          "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 7200,
+          "passPrice": 5200
+        },
+        {
+          "id": "au_hotel_sydney_harbour",
+          "name": "Sydney Harbour & Opera House View Suite",
+          "category": "hotel",
+          "duration": "Full Stay",
+          "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 9000,
+          "passPrice": 6500
+        },
+        {
+          "id": "au_dine_tower",
+          "name": "Sydney Tower 360 Bar Revolving Sky Buffet Dinner",
+          "category": "dining",
+          "duration": "Evening",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 11300,
+          "passPrice": 8200
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "au-pass-adventure",
+      "name": "Sydney Adventure & Coastal Surf Pass",
+      "emoji": "",
+      "theme": "adventure",
+      "tagline": "Blue Mountains cableway, Bondi private surfing lesson & Opera House backstage tour.",
+      "badge": "Active Explorer",
+      "includedItemIds": [
+        "au_act_blue_mountains",
+        "au_act_bondi_surf",
+        "au_act_opera_tour"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 15700,
+      "passPrice": 10700,
+      "savingsAmount": 5000,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "au_act_blue_mountains",
+          "name": "Blue Mountains Scenic World Cableway Pass",
+          "category": "activity",
+          "duration": "Full Day",
+          "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 6200,
+          "passPrice": 4500
+        },
+        {
+          "id": "au_act_bondi_surf",
+          "name": "Bondi Beach Private Surfing Lesson & Coastal Walk",
+          "category": "activity",
+          "duration": "2.5 Hours",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 4300,
+          "passPrice": 3100
+        },
+        {
+          "id": "au_act_opera_tour",
+          "name": "Sydney Opera House Backstage Architectural Tour",
+          "category": "activity",
+          "duration": "2 Hours",
+          "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5200,
+          "passPrice": 3800
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "au-pass-cultural",
+      "name": "Sydney Heritage & Mountains Pass",
+      "emoji": "",
+      "theme": "cultural",
+      "tagline": "Sydney Opera House architectural tour, Blue Mountains cableway & Audi A8 chauffeur.",
+      "badge": "Cultural Icon",
+      "includedItemIds": [
+        "au_act_opera_tour",
+        "au_act_blue_mountains",
+        "au_trans_audi"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 18600,
+      "passPrice": 12700,
+      "savingsAmount": 5900,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "au_act_opera_tour",
+          "name": "Sydney Opera House Backstage Architectural Tour",
+          "category": "activity",
+          "duration": "2 Hours",
+          "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5200,
+          "passPrice": 3800
+        },
+        {
+          "id": "au_act_blue_mountains",
+          "name": "Blue Mountains Scenic World Cableway Pass",
+          "category": "activity",
+          "duration": "Full Day",
+          "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 6200,
+          "passPrice": 4500
+        },
+        {
+          "id": "au_trans_audi",
+          "name": "Executive Audi A8 / Mercedes Airport Chauffeur",
+          "category": "transfer",
+          "duration": "Roundtrip",
+          "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 7200,
+          "passPrice": 5200
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "au-pass-luxury",
+      "name": "Sydney VIP Skyline & Harbour Pass",
+      "emoji": "",
+      "theme": "luxury",
+      "tagline": "Sydney Tower 360 revolving dinner, Audi A8 chauffeur, Opera view suite & sunset cruise.",
+      "badge": "Ultra Luxury",
+      "includedItemIds": [
+        "au_dine_tower",
+        "au_trans_audi",
+        "au_hotel_sydney_harbour",
+        "au_act_harbour_dinner"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 34700,
+      "passPrice": 23600,
+      "savingsAmount": 11100,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "au_dine_tower",
+          "name": "Sydney Tower 360 Bar Revolving Sky Buffet Dinner",
+          "category": "dining",
+          "duration": "Evening",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 11300,
+          "passPrice": 8200
+        },
+        {
+          "id": "au_trans_audi",
+          "name": "Executive Audi A8 / Mercedes Airport Chauffeur",
+          "category": "transfer",
+          "duration": "Roundtrip",
+          "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 7200,
+          "passPrice": 5200
+        },
+        {
+          "id": "au_hotel_sydney_harbour",
+          "name": "Sydney Harbour & Opera House View Suite",
+          "category": "hotel",
+          "duration": "Full Stay",
+          "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 9000,
+          "passPrice": 6500
+        },
+        {
+          "id": "au_act_harbour_dinner",
+          "name": "Sydney Harbour Captain Cook 3-Course Sunset Cruise",
+          "category": "activity",
+          "duration": "2.5 Hours",
+          "image": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 7200,
+          "passPrice": 5200
+        }
+      ],
+      "itemCount": 4,
+      "image": "https://images.unsplash.com/photo-1510525009512-ad7fc13eefab?auto=format&fit=crop&w=600&q=70"
+    }
+  ],
+  "switzerland": [
+    {
+      "id": "ch-pass-romantic",
+      "name": "Swiss Alpine Romance & Fondue Pass",
+      "emoji": "",
+      "theme": "romantic",
+      "tagline": "Matterhorn alpine chalet, Lake Lucerne motor yacht cruise & traditional Zermatt fondue.",
+      "badge": "Alpine Romance",
+      "includedItemIds": [
+        "ch_hotel_matterhorn_chalet",
+        "ch_act_lake_cruise",
+        "ch_dine_fondue"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 22300,
+      "passPrice": 15200,
+      "savingsAmount": 7100,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "ch_hotel_matterhorn_chalet",
+          "name": "Matterhorn Mountain-View Alpine Chalet Suite",
+          "category": "hotel",
+          "duration": "Full Stay",
+          "image": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 11700,
+          "passPrice": 8500
+        },
+        {
+          "id": "ch_act_lake_cruise",
+          "name": "Lake Lucerne Panoramic Motor Yacht Cruise",
+          "category": "activity",
+          "duration": "2 Hours",
+          "image": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 4400,
+          "passPrice": 3200
+        },
+        {
+          "id": "ch_dine_fondue",
+          "name": "Zermatt Traditional Alpine Cheese Fondue & Wine",
+          "category": "dining",
+          "duration": "Evening",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 6200,
+          "passPrice": 4500
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "ch-pass-adventure",
+      "name": "Swiss Alpine Summit Pass",
+      "emoji": "",
+      "theme": "adventure",
+      "tagline": "Jungfraujoch Top of Europe train, Matterhorn Glacier Paradise & Grindelwald Cliff Walk.",
+      "badge": "Summit Explorer",
+      "includedItemIds": [
+        "ch_act_jungfrau",
+        "ch_act_matterhorn_cable",
+        "ch_act_grindelwald_first"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 39800,
+      "passPrice": 27200,
+      "savingsAmount": 12600,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "ch_act_jungfrau",
+          "name": "Jungfraujoch Top of Europe Alpine Cogwheel Train",
+          "category": "activity",
+          "duration": "Full Day",
+          "image": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 20000,
+          "passPrice": 14500
+        },
+        {
+          "id": "ch_act_matterhorn_cable",
+          "name": "Matterhorn Glacier Paradise 3883m Cableway",
+          "category": "activity",
+          "duration": "4 Hours",
+          "image": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 13500,
+          "passPrice": 9800
+        },
+        {
+          "id": "ch_act_grindelwald_first",
+          "name": "Grindelwald First Cliff Walk & Glider Adventure",
+          "category": "activity",
+          "duration": "Half Day",
+          "image": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 6300,
+          "passPrice": 4600
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1527668752968-14dc70a27c95?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "ch-pass-cultural",
+      "name": "Swiss Lakes & Heritage Pass",
+      "emoji": "",
+      "theme": "cultural",
+      "tagline": "Lake Lucerne panoramic balcony room, Lucerne yacht cruise & Zermatt fondue evening.",
+      "badge": "Scenic & Heritage",
+      "includedItemIds": [
+        "ch_hotel_lucerne_lake",
+        "ch_act_lake_cruise",
+        "ch_dine_fondue"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 20000,
+      "passPrice": 13600,
+      "savingsAmount": 6400,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "ch_hotel_lucerne_lake",
+          "name": "Lake Lucerne Panoramic Balcony Premier Room",
+          "category": "hotel",
+          "duration": "Full Stay",
+          "image": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 9400,
+          "passPrice": 6800
+        },
+        {
+          "id": "ch_act_lake_cruise",
+          "name": "Lake Lucerne Panoramic Motor Yacht Cruise",
+          "category": "activity",
+          "duration": "2 Hours",
+          "image": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 4400,
+          "passPrice": 3200
+        },
+        {
+          "id": "ch_dine_fondue",
+          "name": "Zermatt Traditional Alpine Cheese Fondue & Wine",
+          "category": "dining",
+          "duration": "Evening",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 6200,
+          "passPrice": 4500
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "ch-pass-luxury",
+      "name": "Swiss Grand First-Class VIP Pass",
+      "emoji": "",
+      "theme": "luxury",
+      "tagline": "1st Class Swiss Travel Pass (4-Day), Jungfraujoch cogwheel, Matterhorn chalet & glacier cableway.",
+      "badge": "First Class Luxury",
+      "includedItemIds": [
+        "ch_trans_swisspass",
+        "ch_act_jungfrau",
+        "ch_hotel_matterhorn_chalet",
+        "ch_act_matterhorn_cable"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 84500,
+      "passPrice": 57600,
+      "savingsAmount": 26900,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "ch_trans_swisspass",
+          "name": "1st Class Swiss Travel Pass 4-Day Unlimited Pass",
+          "category": "transfer",
+          "duration": "4 Days",
+          "image": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 39300,
+          "passPrice": 28500
+        },
+        {
+          "id": "ch_act_jungfrau",
+          "name": "Jungfraujoch Top of Europe Alpine Cogwheel Train",
+          "category": "activity",
+          "duration": "Full Day",
+          "image": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 20000,
+          "passPrice": 14500
+        },
+        {
+          "id": "ch_hotel_matterhorn_chalet",
+          "name": "Matterhorn Mountain-View Alpine Chalet Suite",
+          "category": "hotel",
+          "duration": "Full Stay",
+          "image": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 11700,
+          "passPrice": 8500
+        },
+        {
+          "id": "ch_act_matterhorn_cable",
+          "name": "Matterhorn Glacier Paradise 3883m Cableway",
+          "category": "activity",
+          "duration": "4 Hours",
+          "image": "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 13500,
+          "passPrice": 9800
+        }
+      ],
+      "itemCount": 4,
+      "image": "https://images.unsplash.com/photo-1502784444187-359ac186c5bb?auto=format&fit=crop&w=600&q=70"
+    }
+  ],
+  "bali": [
+    {
+      "id": "id-pass-romantic",
+      "name": "Bali Island Romance & Sunset Pass",
+      "emoji": "",
+      "theme": "romantic",
+      "tagline": "Ubud rainforest infinity pool villa, floating pool champagne breakfast & Uluwatu fire dance.",
+      "badge": "Couples Bestseller",
+      "includedItemIds": [
+        "id_hotel_ubud_pool",
+        "id_dine_floating",
+        "id_act_uluwatu_dance"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 13200,
+      "passPrice": 9000,
+      "savingsAmount": 4200,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "id_hotel_ubud_pool",
+          "name": "Ubud Rainforest Private Infinity Pool Villa",
+          "category": "hotel",
+          "duration": "Full Stay",
+          "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5800,
+          "passPrice": 4200
+        },
+        {
+          "id": "id_dine_floating",
+          "name": "Floating Pool Champagne Breakfast in Ubud",
+          "category": "dining",
+          "duration": "Morning",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 3400,
+          "passPrice": 2500
+        },
+        {
+          "id": "id_act_uluwatu_dance",
+          "name": "Uluwatu Sunset Cliff Temple & Kecak Fire Dance",
+          "category": "activity",
+          "duration": "4 Hours",
+          "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 4000,
+          "passPrice": 2900
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "id-pass-adventure",
+      "name": "Bali Volcano & Ocean Adventure Pass",
+      "emoji": "",
+      "theme": "adventure",
+      "tagline": "Mount Batur sunrise 4WD volcano trek, Nusa Penida manta ray snorkel & Ayung river rafting.",
+      "badge": "Thrillseeker Choice",
+      "includedItemIds": [
+        "id_act_batur_jeep",
+        "id_act_nusa_penida",
+        "id_act_ayung_rafting"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 12700,
+      "passPrice": 8600,
+      "savingsAmount": 4100,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "id_act_batur_jeep",
+          "name": "Mount Batur Sunrise 4WD Black Lava Volcano Trek",
+          "category": "activity",
+          "duration": "5 Hours",
+          "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 4400,
+          "passPrice": 3200
+        },
+        {
+          "id": "id_act_nusa_penida",
+          "name": "Nusa Penida Kelingking & Manta Ray Snorkel Tour",
+          "category": "activity",
+          "duration": "Full Day",
+          "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5000,
+          "passPrice": 3600
+        },
+        {
+          "id": "id_act_ayung_rafting",
+          "name": "Ayung River White Water Rafting & Balinese Buffet",
+          "category": "activity",
+          "duration": "4 Hours",
+          "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 3300,
+          "passPrice": 2400
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "id-pass-cultural",
+      "name": "Bali Temples & Heritage Pass",
+      "emoji": "",
+      "theme": "cultural",
+      "tagline": "Uluwatu sunset cliff temple & Kecak fire dance, private chauffeur (3 full days) & Ayung rafting.",
+      "badge": "Island Culture",
+      "includedItemIds": [
+        "id_act_uluwatu_dance",
+        "id_trans_chauffeur",
+        "id_act_ayung_rafting"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 15300,
+      "passPrice": 10400,
+      "savingsAmount": 4900,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "id_act_uluwatu_dance",
+          "name": "Uluwatu Sunset Cliff Temple & Kecak Fire Dance",
+          "category": "activity",
+          "duration": "4 Hours",
+          "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 4000,
+          "passPrice": 2900
+        },
+        {
+          "id": "id_trans_chauffeur",
+          "name": "Private Chauffeur & Air-Conditioned SUV (3 Full Days)",
+          "category": "transfer",
+          "duration": "3 Full Days",
+          "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 8000,
+          "passPrice": 5800
+        },
+        {
+          "id": "id_act_ayung_rafting",
+          "name": "Ayung River White Water Rafting & Balinese Buffet",
+          "category": "activity",
+          "duration": "4 Hours",
+          "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 3300,
+          "passPrice": 2400
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1555400038-63f5ba517a47?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "id-pass-luxury",
+      "name": "Bali Ultra Luxury VIP Pass",
+      "emoji": "",
+      "theme": "luxury",
+      "tagline": "Seminyak oceanfront suite, private chauffeur (3 days), Nusa Penida snorkel & floating breakfast.",
+      "badge": "Ultra Luxury",
+      "includedItemIds": [
+        "id_hotel_seminyak_beach",
+        "id_trans_chauffeur",
+        "id_act_nusa_penida",
+        "id_dine_floating"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 21600,
+      "passPrice": 14800,
+      "savingsAmount": 6800,
+      "savingsPercent": 31,
+      "includedItems": [
+        {
+          "id": "id_hotel_seminyak_beach",
+          "name": "Seminyak Sunset Oceanfront Balcony Suite",
+          "category": "hotel",
+          "duration": "Full Stay",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5200,
+          "passPrice": 3800
+        },
+        {
+          "id": "id_trans_chauffeur",
+          "name": "Private Chauffeur & Air-Conditioned SUV (3 Full Days)",
+          "category": "transfer",
+          "duration": "3 Full Days",
+          "image": "https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 8000,
+          "passPrice": 5800
+        },
+        {
+          "id": "id_act_nusa_penida",
+          "name": "Nusa Penida Kelingking & Manta Ray Snorkel Tour",
+          "category": "activity",
+          "duration": "Full Day",
+          "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5000,
+          "passPrice": 3600
+        },
+        {
+          "id": "id_dine_floating",
+          "name": "Floating Pool Champagne Breakfast in Ubud",
+          "category": "dining",
+          "duration": "Morning",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 3400,
+          "passPrice": 2500
+        }
+      ],
+      "itemCount": 4,
+      "image": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?auto=format&fit=crop&w=600&q=70"
+    }
+  ],
+  "maldives": [
+    {
+      "id": "mv-pass-romantic",
+      "name": "Maldives Overwater Romance Pass",
+      "emoji": "",
+      "theme": "romantic",
+      "tagline": "Luxury overwater villa with glass floor, sunset dolphin safari & private sandbank chef picnic.",
+      "badge": "Honeymoon Choice",
+      "includedItemIds": [
+        "mv_hotel_overwater_villa",
+        "mv_act_dolphin_cruise",
+        "mv_act_sandbank_picnic"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 30600,
+      "passPrice": 20900,
+      "savingsAmount": 9700,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "mv_hotel_overwater_villa",
+          "name": "Luxury Overwater Lagoon Villa with Glass Floor",
+          "category": "hotel",
+          "duration": "Full Stay",
+          "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 13100,
+          "passPrice": 9500
+        },
+        {
+          "id": "mv_act_dolphin_cruise",
+          "name": "Sunset Spinner Dolphin Safari Cruise & Cocktails",
+          "category": "activity",
+          "duration": "2 Hours",
+          "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5800,
+          "passPrice": 4200
+        },
+        {
+          "id": "mv_act_sandbank_picnic",
+          "name": "Private Deserted Sandbank Luxury Chef Picnic",
+          "category": "activity",
+          "duration": "4 Hours",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 11700,
+          "passPrice": 8500
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "mv-pass-adventure",
+      "name": "Maldives Marine Explorer Pass",
+      "emoji": "",
+      "theme": "adventure",
+      "tagline": "Vaavu Atoll nurse shark lagoon snorkel, PADI coral reef scuba diving & dolphin safari cruise.",
+      "badge": "Marine Adventure",
+      "includedItemIds": [
+        "mv_act_nurse_shark",
+        "mv_act_padi_reef",
+        "mv_act_dolphin_cruise"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 22400,
+      "passPrice": 15200,
+      "savingsAmount": 7200,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "mv_act_nurse_shark",
+          "name": "Vaavu Atoll Nurse Shark & Stingray Lagoon Snorkel",
+          "category": "activity",
+          "duration": "4 Hours",
+          "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 8000,
+          "passPrice": 5800
+        },
+        {
+          "id": "mv_act_padi_reef",
+          "name": "PADI Discover Scuba Diving on House Coral Wall",
+          "category": "activity",
+          "duration": "3 Hours",
+          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 8600,
+          "passPrice": 6200
+        },
+        {
+          "id": "mv_act_dolphin_cruise",
+          "name": "Sunset Spinner Dolphin Safari Cruise & Cocktails",
+          "category": "activity",
+          "duration": "2 Hours",
+          "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5800,
+          "passPrice": 4200
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "mv-pass-cultural",
+      "name": "Maldives Lagoon Discovery Pass",
+      "emoji": "",
+      "theme": "cultural",
+      "tagline": "Private deserted sandbank chef picnic, Vaavu Atoll snorkel & dolphin cruise.",
+      "badge": "Island Highlights",
+      "includedItemIds": [
+        "mv_act_sandbank_picnic",
+        "mv_act_nurse_shark",
+        "mv_act_dolphin_cruise"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 25500,
+      "passPrice": 17400,
+      "savingsAmount": 8100,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "mv_act_sandbank_picnic",
+          "name": "Private Deserted Sandbank Luxury Chef Picnic",
+          "category": "activity",
+          "duration": "4 Hours",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 11700,
+          "passPrice": 8500
+        },
+        {
+          "id": "mv_act_nurse_shark",
+          "name": "Vaavu Atoll Nurse Shark & Stingray Lagoon Snorkel",
+          "category": "activity",
+          "duration": "4 Hours",
+          "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 8000,
+          "passPrice": 5800
+        },
+        {
+          "id": "mv_act_dolphin_cruise",
+          "name": "Sunset Spinner Dolphin Safari Cruise & Cocktails",
+          "category": "activity",
+          "duration": "2 Hours",
+          "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 5800,
+          "passPrice": 4200
+        }
+      ],
+      "itemCount": 3,
+      "image": "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?auto=format&fit=crop&w=600&q=70"
+    },
+    {
+      "id": "mv-pass-luxury",
+      "name": "Maldives Subsix Royal VIP Pass",
+      "emoji": "",
+      "theme": "luxury",
+      "tagline": "Subsix underwater 6-meters deep lunch, sunset water slide villa, seaplane transfer & sandbank picnic.",
+      "badge": "Ultra Luxury",
+      "includedItemIds": [
+        "mv_dine_underwater",
+        "mv_hotel_slide_villa",
+        "mv_trans_seaplane",
+        "mv_act_sandbank_picnic"
+      ],
+      "validity": "60 Days from First Use",
+      "tokenDeposit": 1999,
+      "gatePrice": 84200,
+      "passPrice": 57300,
+      "savingsAmount": 26900,
+      "savingsPercent": 32,
+      "includedItems": [
+        {
+          "id": "mv_dine_underwater",
+          "name": "Subsix Underwater 6-Metres Deep Restaurant Lunch",
+          "category": "dining",
+          "duration": "Afternoon",
+          "image": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 19300,
+          "passPrice": 14000
+        },
+        {
+          "id": "mv_hotel_slide_villa",
+          "name": "Sunset Water Villa with Private Slide & Pool",
+          "category": "hotel",
+          "duration": "Full Stay",
+          "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 22800,
+          "passPrice": 16500
+        },
+        {
+          "id": "mv_trans_seaplane",
+          "name": "Roundtrip Trans-Maldivian Scenic Seaplane Upgrade",
+          "category": "transfer",
+          "duration": "Roundtrip",
+          "image": "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 30400,
+          "passPrice": 22000
+        },
+        {
+          "id": "mv_act_sandbank_picnic",
+          "name": "Private Deserted Sandbank Luxury Chef Picnic",
+          "category": "activity",
+          "duration": "4 Hours",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=70",
+          "gatePrice": 11700,
+          "passPrice": 8500
+        }
+      ],
+      "itemCount": 4,
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=70"
+    }
+  ]
+}

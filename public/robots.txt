@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+Allow: /mobile
+Allow: /mobile-preview
+Allow: /legal/
+
+Disallow: /admin
+Disallow: /admin.html
+Disallow: /api/
+Disallow: /data/
+
+Sitemap: https://passprive.travel/sitemap.xml

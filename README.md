@@ -1,6 +1,6 @@
 # PassPrivé Travel — Mauritius Trips + Free PassPrivé App VIP Access
 
-A standalone, high-conversion luxury travel platform for **Mauritius Trips** (`index updated.html` and `index.html`), designed with the official **PassPrivé** Sunset Coral-Orange (`#FF4D12` to `#FF7A00`) + Deep Lagoon Teal (`#0E6F63`) + Sunlit Pearl (`#FCF9F5`) aesthetic and plain, warm human copywriting.
+A high-conversion luxury travel platform for **Mauritius Trips** (landing page at `/`), designed with the official **PassPrivé** Sunset Coral-Orange (`#FF4D12` to `#FF7A00`) + Deep Lagoon Teal (`#0E6F63`) + Sunlit Pearl (`#FCF9F5`) aesthetic and plain, warm human copywriting.
 
 ## Key Highlights
 
@@ -30,3 +30,25 @@ A standalone, high-conversion luxury travel platform for **Mauritius Trips** (`i
      8. Real Traveler Stories (`#testimonials`)
      9. Transparent FAQ (`#faq`)
      10. Direct WhatsApp Concierge Banner + Footer (`#whatsapp-banner` / `#footer`)
+
+## Tech Stack & Development
+
+Next.js 16 (App Router) · React 19 · TypeScript · Tailwind CSS v4. The former PHP endpoints are Next.js route handlers in `app/api/`.
+
+```bash
+npm install
+cp .env.example .env.local   # RateHawk credentials (optional; without them rates use the yield model)
+npm run dev                  # http://localhost:3000
+npm run lint && npm run build
+```
+
+| Route | Page |
+| :--- | :--- |
+| `/` | Mauritius trips landing page |
+| `/mobile` | Multi-destination mobile web app |
+| `/mobile-preview` | Phone simulator for `/mobile` |
+| `/admin` | Operations dashboard |
+| `/legal/*` | Privacy, terms, refund policy, disclaimer |
+| `/api/bookings`, `/api/rates`, `/api/lead-capture` | Backend API |
+
+Deployment, file layout and old-URL redirects: see [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md).
